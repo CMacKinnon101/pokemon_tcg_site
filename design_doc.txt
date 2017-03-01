@@ -1,0 +1,49 @@
+Deck Editor
+-----------------
+
+Data
+-- Card Images
+-- DB with card data
+-- Deck Lists
+-- Export
+
+Front end
+-- Client side js
+-- Styles
+-- layout
+
+
+
+Card images
+-------------------
+Pokemon stores their images in aws.
+
+DB with card Data
+--------------------
+This is stored in the pokemon api in JS.
+
+Deck Lists
+--------------------
+We can store this in a mongo db.
+
+Users
+--------------------
+Find out how to do this in a node app.
+
+Export features
+--------------------
+First draft Text output EG:
+   1 Raichu (Set Number) (collector's number)
+End goal would be multiple formats:
+
+1) whatever format pokemon online uses
+2) our format
+3) Plain text
+4) Proxies?
+5) Tournament Compliant decklist
+
+Front end 
+---------------------
+  -- Css
+  -- Html
+  -- Fancy js for drawing cards, moving cards in deck editor, etc.
