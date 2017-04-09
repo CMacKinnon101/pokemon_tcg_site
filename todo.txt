@@ -1,0 +1,18 @@
+// TODO
+***************
+* Card Search *
+***************
+Limit the amount of cards sent back, and implement some sort of pagination.
+
+Divs for:
+  deck contents
+    -- Should be divided into types, with a quantity column
+       -- Pokemon
+       -- Trainers
+          -- Subtypes
+          -- Stadiums
+          -- Supporters
+
+  search results
+    -- This should show the art of the card searched for with an alt text that
+       makes sense.
