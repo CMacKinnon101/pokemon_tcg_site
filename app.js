@@ -17,7 +17,7 @@ app.use(express.static('public'));
 // -- Routes
 app.get('/', function (req, res) {
 	console.log("dirname value:"+__dirname)
-    res.sendFile( __dirname + "/public/index.html" );
+  res.render("cards/index.jade", {title: 'home'});
 })
 app.get('/cards', function (req, res) {
 	console.log("dirname value:"+__dirname)

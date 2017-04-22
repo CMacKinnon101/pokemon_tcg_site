@@ -1,0 +1,25 @@
+extend ../layout
+block content
+  p
+    Ajax Search
+  input#search(type="text", name ="fields")
+  p#results
+
+  p
+    Please enter a field and a value to search by.
+  form(action="search_by_field", method="GET")
+    span.label Field
+    input(type="text", name="field")
+    br
+    span.label Value
+    input(type="text", name="value")
+    input(type="submit", value="Submit")
+block sidebar
+  .widget
+    h1 Widget
+    p
+      | Sed auctor neque eu tellus rhoncus ut
+      | eleifend nibh porttitor. Ut in nulla enim.
+    p
+      | Vivamus hendrerit arcu sed erat molestie
+      | vehicula.
